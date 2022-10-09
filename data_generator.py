@@ -1,6 +1,7 @@
 import random 
 import string 
 
+# add a list of userids to match to recipientids
 user_ids = list(range(1, 101))
 recipient_ids = list(range(1, 101))
 
