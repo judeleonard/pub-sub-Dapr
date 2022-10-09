@@ -11,7 +11,7 @@ def generate_message() -> dict:
     # User can't send message to himself
     recipient_ids_copy.remove(random_user_id)
     random_recipient_id = random.choice(recipient_ids_copy)
-    # Generate a random message
+    # Generate a random messages 
     message = ''.join(random.choice(string.ascii_letters) for i in range(32))
     return {
         'user_id': random_user_id,
